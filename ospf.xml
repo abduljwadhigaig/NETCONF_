@@ -1,0 +1,15 @@
+<config>
+   <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+			<router>
+				<ospf	xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ospf">
+					<id>{OSPF_ID}</id>
+					<router-id>{router_id}</router-id>
+					<redistribute>
+						<bgp>
+							<as-number>{redistribute_BGP_AS_Number}</as-number>
+						</bgp>
+					</redistribute>
+				</ospf>
+		</router>
+  </native>
+</config>

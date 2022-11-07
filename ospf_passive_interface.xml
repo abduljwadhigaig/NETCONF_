@@ -1,0 +1,12 @@
+<config>
+   <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+			<router>
+				<ospf	xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ospf">
+					<id>{OSPF_ID}</id>
+          <passive-interface>
+              <interface>GigabitEthernet{passive_interface}</interface>
+         </passive-interface>
+ 				</ospf>
+		</router>
+  </native>
+</config>
