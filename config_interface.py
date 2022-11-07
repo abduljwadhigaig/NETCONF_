@@ -1,3 +1,5 @@
+# This is the main script
+
 from ncclient import manager
 import xmltodict
 CiscoC= { # this dictionary contains the Device details
