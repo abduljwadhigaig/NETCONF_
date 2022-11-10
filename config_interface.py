@@ -2,7 +2,7 @@ This is the main script
 from ncclient import manager
 import xmltodict
 CiscoC= { # this dictionary contains the Device details which needs to be change 
-        "host": "192.168.148.75",
+        "host": "host ip",
         "username": "cisco",
         "password": "cisco",
         "port": "830",
